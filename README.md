@@ -1,7 +1,7 @@
 
 # Exemplo Básico do uso de GraphQL + Node
 
-## Pré-requisitos
+## Stacks
 
 * [Git](https://git-scm.com/)
 * [Node](https://nodejs.org/)
@@ -9,19 +9,20 @@
 * [Yarn](https://yarnpkg.com/pt-BR/)
 * [Express](http://expressjs.com/) 
 * [GraphQL](http://graphql.org/) 
+* [GraphQL-Tools](http://dev.apollodata.com/tools/graphql-tools/)
 
 ## Rode a aplicação usando yarn
 
 ```
 yarn install
-yarn run dev
+yarn start
 ```
 
 ou com npm
 
 ```
 npm i
-npm run dev
+npm start
 ```
 
 ## Acesse
@@ -61,6 +62,6 @@ user(id: 1) {
 
 ```
 {
-  allUsers
+  totalUsers
 }
 ```

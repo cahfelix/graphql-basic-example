@@ -1,0 +1,22 @@
+{
+  "name": "graphql-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ./src/server.js"
+  },
+  "author": "Cah Felix (https://github.com/cahfelix)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-preset-env": "^1.7.0"
+  }
+}
